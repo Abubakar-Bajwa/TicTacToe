@@ -97,12 +97,11 @@ def main():
     if users_turn:
       make_user_move(ttt_board)
       users_turn = not users_turn
-      free_cells -= 1
     else:
       make_user2_move(ttt_board)
       users_turn = not users_turn
-      free_cells -= 1
       display_board(ttt_board)
+    free_cells -= 1
   if (winner(ttt_board) == 'X'):
     print("User 1 won!")
 
