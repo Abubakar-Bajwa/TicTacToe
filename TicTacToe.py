@@ -112,3 +112,4 @@ def main():
     print("\n*** GAME OVER ***\n")
 # Start the game!
 main()
+exit()
